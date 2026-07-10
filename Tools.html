@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SHIVRIX AI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,sans-serif;
+        }
+
+        body{
+
+            background:#050505;
+            color:white;
+            overflow-x:hidden;
+
+        }
+
+        nav{
+
+            position:fixed;
+            top:0;
+            width:100%;
+            padding:22px 7%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+
+            background:rgba(10,10,10,.8);
+            backdrop-filter:blur(20px);
+
+            border-bottom:1px solid #1f1f1f;
+
+        }
+
+        .logo{
+
+            font-size:30px;
+            font-weight:700;
+            letter-spacing:2px;
+
+        }
+
+        nav ul{
+
+            display:flex;
+            gap:28px;
+            list-style:none;
+
+        }
+
+        nav a{
+
+            color:#e4e4e4;
+            text-decoration:none;
+
+        }
+
+        .hero{
+
+            min-height:100vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            padding:120px 20px;
+
+        }
+
+        .hero h1{
+
+            font-size:72px;
+            max-width:900px;
+
+        }
+
+        .hero p{
+
+            margin-top:25px;
+            color:#b9b9b9;
+            max-width:760px;
+            line-height:1.8;
+
+        }
+
+        .buttons{
+
+            margin-top:35px;
+            display:flex;
+            gap:15px;
+            flex-wrap:wrap;
+
+        }
+
+        .btn{
+
+            padding:16px 30px;
+            border-radius:14px;
+            text-decoration:none;
+            font-weight:bold;
+
+        }
+
+        .primary{
+
+            background:white;
+            color:black;
+
+        }
+
+        .secondary{
+
+            border:1px solid #303030;
+            color:white;
+
+        }
+
+        .cards{
+
+            padding:90px 7%;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+            gap:25px;
+
+        }
+
+        .card{
+
+            background:#101010;
+            border:1px solid #222;
+            border-radius:22px;
+            padding:28px;
+
+        }
+
+        .card h2{
+
+            margin-bottom:14px;
+
+        }
+
+        .card p{
+
+            color:#bdbdbd;
+            line-height:1.7;
+
+        }
+
+        footer{
+
+            text-align:center;
+            padding:45px;
+            border-top:1px solid #1f1f1f;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">SHIVRIX AI</div>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="academy.html">Academy</a></li>
+            <li><a href="analytics.html">Analytics</a></li>
+
+        </ul>
+
+    </nav>
+
+    <section class="hero">
+
+        <h1>Create Smarter. Grow Faster.</h1>
+
+        <p>
+
+            AI tools for creators, gamers and YouTubers.
+
+        </p>
+
+        <div class="buttons">
+
+            <a href="tools.html" class="btn primary">Explore</a>
+
+            <a href="academy.html" class="btn secondary">Learn</a>
+
+        </div>
+
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+
+            <h2>AI Studio</h2>
+
+            <p>Titles, tags and scripts.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Thumbnail Lab</h2>
+
+            <p>Professional gaming designs.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Growth Academy</h2>
+
+            <p>Learn YouTube strategies.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Analytics</h2>
+
+            <p>Track your performance.</p>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        © 2026 SHIVRIX AI
+
+    </footer>
+
+</body>
+
+</html>

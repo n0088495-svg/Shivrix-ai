@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SHIVRIX AI • Analytics</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,sans-serif;
+        }
+
+        body{
+            background:#070707;
+            color:white;
+        }
+
+        .sidebar{
+
+            position:fixed;
+            left:0;
+            top:0;
+            width:250px;
+            height:100vh;
+
+            background:#111;
+
+            border-right:1px solid #222;
+
+            padding:30px;
+
+        }
+
+        .logo{
+
+            font-size:28px;
+            font-weight:bold;
+            margin-bottom:45px;
+
+        }
+
+        .sidebar a{
+
+            display:block;
+            color:#cfcfcf;
+            text-decoration:none;
+            margin:18px 0;
+            font-size:18px;
+
+        }
+
+        .content{
+
+            margin-left:250px;
+            padding:40px;
+
+        }
+
+        .header{
+
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+
+            margin-bottom:30px;
+
+        }
+
+        .header h1{
+
+            font-size:52px;
+
+        }
+
+        .search{
+
+            padding:14px;
+            width:260px;
+
+            background:#151515;
+
+            border:1px solid #222;
+
+            color:white;
+
+            border-radius:14px;
+
+        }
+
+        .stats{
+
+            display:grid;
+
+            grid-template-columns:
+            repeat(auto-fit,minmax(220px,1fr));
+
+            gap:20px;
+
+        }
+
+        .box{
+
+            background:#121212;
+
+            border:1px solid #222;
+
+            border-radius:20px;
+
+            padding:30px;
+
+        }
+
+        .box h2{
+
+            font-size:36px;
+
+            margin-bottom:10px;
+
+        }
+
+        .box p{
+
+            color:#bdbdbd;
+
+        }
+
+        .chart{
+
+            margin-top:35px;
+
+            background:#121212;
+
+            border:1px solid #222;
+
+            border-radius:20px;
+
+            padding:30px;
+
+        }
+
+        .bars{
+
+            margin-top:25px;
+
+            display:flex;
+
+            align-items:flex-end;
+
+            gap:18px;
+
+            height:250px;
+
+        }
+
+        .bar{
+
+            width:60px;
+
+            border-radius:14px 14px 0 0;
+
+            background:white;
+
+        }
+
+        .b1{height:100px;}
+        .b2{height:150px;}
+        .b3{height:220px;}
+        .b4{height:170px;}
+        .b5{height:240px;}
+        .b6{height:190px;}
+
+        .videos{
+
+            margin-top:35px;
+
+            display:grid;
+
+            grid-template-columns:
+            repeat(auto-fit,minmax(300px,1fr));
+
+            gap:20px;
+
+        }
+
+        .video{
+
+            background:#121212;
+
+            border:1px solid #222;
+
+            border-radius:20px;
+
+            padding:25px;
+
+        }
+
+        .video h3{
+
+            margin-bottom:12px;
+
+        }
+
+        .video p{
+
+            color:#bdbdbd;
+
+            line-height:1.7;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+        <div class="logo">
+
+            SHIVRIX AI
+
+        </div>
+
+        <a href="index.html">🏠 Home</a>
+
+        <a href="tools.html">🛠 Tools</a>
+
+        <a href="academy.html">🎓 Academy</a>
+
+        <a href="analytics.html">📊 Analytics</a>
+
+    </div>
+
+    <div class="content">
+
+        <div class="header">
+
+            <h1>Analytics</h1>
+
+            <input
+                class="search"
+                type="text"
+                placeholder="Search..."
+            >
+
+        </div>
+
+        <div class="stats">
+
+            <div class="box">
+
+                <h2>2.3K</h2>
+
+                <p>Subscribers</p>
+
+            </div>
+
+            <div class="box">
+
+                <h2>48K</h2>
+
+                <p>Total Views</p>
+
+            </div>
+
+            <div class="box">
+
+                <h2>320</h2>
+
+                <p>Watch Hours</p>
+
+            </div>
+
+            <div class="box">
+
+                <h2>86%</h2>
+
+                <p>Audience Rating</p>
+
+            </div>
+
+        </div>
+
+        <div class="chart">
+
+            <h2>
+
+                Channel Growth
+
+            </h2>
+
+            <div class="bars">
+
+                <div class="bar b1"></div>
+                <div class="bar b2"></div>
+                <div class="bar b3"></div>
+                <div class="bar b4"></div>
+                <div class="bar b5"></div>
+                <div class="bar b6"></div>
+
+            </div>
+
+        </div>
+
+        <div class="videos">
+
+            <div class="video">
+
+                <h3>
+
+                    Roblox Rivals Gameplay
+
+                </h3>
+
+                <p>
+
+                    Views: 12K
+
+                </p>
+
+            </div>
+
+            <div class="video">
+
+                <h3>
+
+                    Blox Fruits Journey
+
+                </h3>
+
+                <p>
+
+                    Views: 18K
+
+                </p>
+
+            </div>
+
+            <div class="video">
+
+                <h3>
+
+                    Minecraft Challenge
+
+                </h3>
+
+                <p>
+
+                    Views: 8K
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
